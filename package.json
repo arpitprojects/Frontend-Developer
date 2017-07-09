@@ -4,7 +4,7 @@
   "description": "A simple Radio app where user can listen to already requested songs by other and request songs to be played by adding YouTube links",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Arpit Anand",
   "license": "MIT",
