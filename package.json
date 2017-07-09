@@ -4,9 +4,6 @@
   "description": "A simple Radio app where user can listen to already requested songs by other and request songs to be played by adding YouTube links",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "postinstall": "npm run build",
     "start": "node server.js"
   },
   "author": "Arpit Anand",
