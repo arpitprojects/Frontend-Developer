@@ -1,3 +1,7 @@
+radioOn.config(['$qProvider', function($qProvider){
+   $qProvider.errorOnUnhandledRejections(false);
+
+}]);
 radioOn.controller('homeController' , ['$scope','$http' ,'$sce', function($scope , $http , $sce){
     $scope.playlist_item = [];
     var count =0;
