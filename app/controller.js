@@ -73,7 +73,7 @@ radioOn.controller('homeController' , ['$scope','$http' ,'$sce', function($scope
 
         if(checking){
 
-            $http.get('http://www.youtube.com/oembed?url='+x+'&format=json').then(function(data){
+            $http.get('https://www.youtube.com/oembed?url='+x+'&format=json').then(function(data){
                 count = count+1;
                 var temp_html = $sce.trustAsHtml(data.data.html);
                 temp_obj = {
@@ -127,7 +127,7 @@ radioOn.controller('homeController' , ['$scope','$http' ,'$sce', function($scope
                             console.log(new_obj);
 
                             var tempor_url = "https://www.youtube.com/watch?v="+ new_obj.data.id;
-                            $http.get('http://www.youtube.com/oembed?url='+tempor_url+'&format=json').then(function(data){
+                            $http.get('https://www.youtube.com/oembed?url='+tempor_url+'&format=json').then(function(data){
 
                                 tempo_obj = data.data;
                                 //console.log(tempo_obj);
@@ -192,7 +192,7 @@ radioOn.controller('homeController' , ['$scope','$http' ,'$sce', function($scope
                 console.log("The youtube url is not valid.");
             }
 
-            $http.get('http://www.youtube.com/oembed?url='+url+'&format=json').then(function(data){
+            $http.get('https://www.youtube.com/oembed?url='+url+'&format=json').then(function(data){
 
                 temporary_obj = data.data;
 
