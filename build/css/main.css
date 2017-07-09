@@ -1,0 +1,132 @@
+body{
+    font-family: 'Dosis' , 'Lato' , sans-serif !important;
+
+}
+.nav-color{
+    background-color:#f6f6f6!important;
+}
+.logo-img{
+    position: relative;
+    top:8px;
+    left:20px;
+}
+.logo-txt{
+    font-family: 'Dosis',sans-serif;
+    font-size:40px;
+    color:#000;
+    position: relative;
+    top:12px;
+    left:30px;
+}
+input{
+    color:#000;
+}
+.req-input li{
+    display: inline-block;
+
+}
+#song{
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07);
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: inherit;
+    text-shadow: none;
+    width: 300px;
+    position:relative;
+    top:8px;
+    padding-left:10px;
+    margin-right:20px;
+}
+#addsong{
+    background-color: #1E5DFF;
+    position: relative;
+    top:15px;
+    width:150px;
+    border-radius: 50px;
+    margin-right:20px;
+}
+iframe{
+    width:100% !important;
+    height:198px !important;
+}
+
+.overlay{
+    width: 100%;
+    height: 198px;
+    position:relative;
+}
+.overlay .effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.overlay:hover .effect{
+    display:block;
+    background-color: rgba(0,0,0,0.3);
+
+}
+#player{
+    position: relative;
+    top: 40%;
+    left: 43.4%;
+    font-size: 40px;
+}
+.modal{
+    max-height:65% !important;
+}
+#carousel .cloud9-item, #buttons button {
+    cursor: pointer;
+}
+#sec_column{
+    background-color:#3E3E3E;
+    padding:2%;
+
+}
+.circle img{
+    margin-left:4.6%;
+}
+#quick_add{
+    margin-left: -1.5%;
+    font-family: Dosis;
+    font-size: 20px;
+
+}
+#quick_add span{
+    margin-left: 1%;
+    font-family: 'Lato',sans-serif;
+    font-size:14px;
+}
+.current-playlist-text{
+    font-family: Dosis;
+    font-size: 24px;
+    font-weight: 600;
+    color:#000;
+}
+.preloader-wrapper{
+    position: fixed;
+    top:50%;
+    left:50%;
+}
+
+#menu{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+   
+}
+.tap-target{
+    background-color:#2196f3;
+}
+.tap-target-content{
+    color:#fff;
+}

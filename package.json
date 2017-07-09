@@ -1,0 +1,31 @@
+{
+  "name": "radioapp",
+  "version": "1.0.0",
+  "description": "A simple Radio app where user can listen to already requested songs by other and request songs to be played by adding YouTube links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arpit Anand",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "angular-sanitize": "^1.6.5",
+    "clipboard": "^1.7.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "plyr": "^2.0.13",
+    "videogular": "^2.2.1",
+    "videogular-angulartics": "^1.4.4",
+    "videogular-buffering": "^1.4.4",
+    "videogular-controls": "^1.4.4",
+    "videogular-dash": "^1.4.4",
+    "videogular-overlay-play": "^1.4.4",
+    "videogular-poster": "^1.4.4",
+    "videogular-themes-default": "^1.4.4",
+    "youtube-info": "^1.1.1"
+  }
+}

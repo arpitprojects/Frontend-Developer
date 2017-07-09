@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Radio On</title>
+        <!--All meta tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Radio App"/>
+        <meta property="og:site_name" content="Radio App"/>
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="A simple Radio app where user can listen to already requested songs by other and request songs to be played by adding YouTube links"/>
+        <meta property="og:type" content="website"/>
+        <meta property="article:author" content="https://www.facebook.com/mjarpitanand" />
+        <meta property="og:image" content="http://" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <!--All seo meta tags -->
+        <!--Link favicon used form ipl site-->
+        <link rel="shortcut icon" href="https://www.shazam.com/resources/4faab7244205c80278ca016578a7cc88714120bd/favicon.ico">
+        <!--All icons-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--End of the all icons-->
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <!-- All css-->
+        <link rel="stylesheet" href="assests/css/materialize.min.css"/>
+        <link rel="stylesheet" href="build/css/reset.css"/>
+        <link rel="stylesheet" href="build/css/loader.css"/>
+        <link rel="stylesheet" href="build/css/main.css"/>
+        <!--All Javascript file-->
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-route/angular-route.min.js"></script>
+        <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+        <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+        <script src="node_modules/hammerjs/hammer.min.js"></script>
+        <script src="assests/js/jquery.min.js"></script>
+        <script src="assests/js/materialize.min.js"></script>
+        <script src="assests/js/jquery.copy-to-clipboard.js"></script>
+        
+        <!--Angular codes-->
+        <script src="app/module.js"></script>
+        <script src="app/route.js"></script>
+        <script src="/app/controller.js"></script>        
+        <script src="app/factory.js"></script>
+        <script src="/app/directives.js"></script>
+        <script src="/app/services.js"></script>
+
+        <!--Custom js-->
+        <script src="build/js/main.js"></script>
+        <script src="build/js/script.js"></script>
+        <body ng-app="radioOn" ng-cloak id="body">
+            <ng-view>
+            </ng-view>
+        </body>
+    </head>
+</html>
