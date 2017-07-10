@@ -130,3 +130,8 @@ iframe{
 .tap-target-content{
     color:#fff;
 }
+@media all and (max-width : 767px){
+    #modal-content-video{
+        width:100%;
+    }
+}

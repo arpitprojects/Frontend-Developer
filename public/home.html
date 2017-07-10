@@ -60,12 +60,12 @@
             <div class="col s12 l12 m12">
 
                 <div class="circle">
-                    <img src="../assests/img/Akshay_Kumar.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=AihilcnejBA')"/> 
-                    <img src="../assests/img/AR_Rahman.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=30zJZPb-o3Q')"/>
-                    <img src="../assests/img/Udit_Narayan.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=Ohvgpgox38Q')"/>
-                    <img src="../assests/img/Sukhwinder_Singh.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=abiL84EAWSY')"/>
-                    <img src="../assests/img/Arijit_Singh.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=Z1wN6_mCYbw')"/>
-                    <img src="../assests/img/Salman_Khan.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=FIMz4M2Vuw4')"/>
+                    <img src="../assests/img/Akshay_Kumar.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;" class="waves-effect waves-light"  ng-click="addsong('https://www.youtube.com/watch?v=AihilcnejBA')"/> 
+                    <img src="../assests/img/AR_Rahman.jpg" height="100" width="100" class="waves-effect waves-light" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=30zJZPb-o3Q')"/>
+                    <img class="waves-effect waves-light" src="../assests/img/Udit_Narayan.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=Ohvgpgox38Q')"/>
+                    <img src="../assests/img/Sukhwinder_Singh.jpg" class="waves-effect waves-light" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=abiL84EAWSY')"/>
+                    <img src="../assests/img/Arijit_Singh.jpg" height="100" width="100" class="waves-effect waves-light" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=Z1wN6_mCYbw')"/>
+                    <img class="waves-effect waves-light" src="../assests/img/Salman_Khan.jpg" height="100" width="100" style="border-radius:50%; cursor:pointer;"  ng-click="addsong('https://www.youtube.com/watch?v=FIMz4M2Vuw4')"/>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
 </section>
 <!--Modal Trigger-->
 <div id="modal1" class="modal bottom-sheet row modal1">
-    <div class="modal-content s12 l4 m6" style="width:40%;">
+    <div class="modal-content s12 l4 m6" style="width:40%;"id="modal-content-video">
         <iframe ng-src="{{embed_new_url | trustUrl}}"  frameborder="0" allowfullscreen></iframe>
         <div class="modal-footer">
             <button class="btn waves-effect waves-green" ng-click="remove(remove_id)">Remove Manually</button>
